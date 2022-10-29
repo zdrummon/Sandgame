@@ -9,3 +9,6 @@ Making a basic falling sand simulator and seeing if I can do some fun stuff with
 6. in terminal: "cd dev"
 7. in terminal: "git config --global user.name first_name last_name"
 8. in terminal: "git config --global user.email your_email@email_host.com"
+9. in terminal: "sudo apt install build-essential"
+10. in terminal: "g++ --version"
+11. in terminal: "
