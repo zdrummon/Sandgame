@@ -12,3 +12,7 @@ Making a basic falling sand simulator and seeing if I can do some fun stuff with
 9. in terminal: "sudo apt install build-essential"
 10. in terminal: "g++ --version"
 11. install extensions into container: c/c++, c/c++ extension pack, cmake, cmaketools, docker
+12. in terminal: "sudo apt install gdb"
+13. install Windows X server from "https://sourceforge.net/projects/vcxsrv/"
+14. run xlaunch, select multiple windows, start no client, clipboard, primary selection, native opengl, disable access control
+15. in terminal: "export DISPLAY=0:0"
