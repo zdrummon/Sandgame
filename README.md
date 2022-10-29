@@ -16,3 +16,5 @@ Making a basic falling sand simulator and seeing if I can do some fun stuff with
 13. install Windows X server from "https://sourceforge.net/projects/vcxsrv/"
 14. run xlaunch, select multiple windows, start no client, clipboard, primary selection, native opengl, disable access control
 15. in terminal: "export DISPLAY=0:0"
+
+OPEN GL WORKS!
