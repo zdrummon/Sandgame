@@ -9,5 +9,5 @@ Making a basic falling sand simulator and seeing if I can do some fun stuff with
 6. run imagine from within Docker Desktop (pass: headless)
 7. in terminal: "export DISPLAY=0:0"
 8. in terminal: "git config --global user.name first_name last_name"
-9. in terminal: "git config --global user.email your_email@email_host.com"
+9. in terminal: "git config --global user.email your_email@email_host"
 10. compile!
