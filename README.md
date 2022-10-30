@@ -6,9 +6,9 @@ Making a basic falling sand simulator and seeing if I can do some fun stuff with
 3. Install Windows X Server from "https://sourceforge.net/projects/vcxsrv/"
 4. Run xlaunch from the start menu and select these options:\
         multiple windows, start no client, clipboard, primary selection, native opengl, disable access control
-5. download image from "https://hub.docker.com/repository/docker/zdrummon/ubuntu_opengl"
-6. run image from within Docker Desktop (pass: headless)
-7. in terminal: "export DISPLAY=0:0"
-8. in terminal: "git config --global user.name first_name last_name"
-9. in terminal: "git config --global user.email your_email@email_host"
+5. Download image from "https://hub.docker.com/repository/docker/zdrummon/ubuntu_opengl"
+6. Run image from within Docker Desktop (pass: headless)
+7. In terminal: "export DISPLAY=0:0"
+8. In terminal: "git config --global user.name first_name last_name"
+9. In terminal: "git config --global user.email your_email@email_host"
 10. compile!
