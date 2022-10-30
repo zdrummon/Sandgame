@@ -1,16 +1,16 @@
-#include <iostream>
+//#include <iostream>
 #include <GL/glut.h>
 
-using std::cout; using std::cin; using std::endl;
+//using std::cout; using std::cin; using std::endl;
 
 void displayMe(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
     glBegin(GL_POLYGON);
         glVertex3f(0.0, 0.0, 0.0);
-        glVertex3f(10.5, 0.0, 0.0);
-        glVertex3f(10.5, 10.5, 0.0);
-        glVertex3f(0.0, 10.5, 0.0);
+        glVertex3f(5.5, 0.0, 0.0);
+        glVertex3f(5.5, 5.5, 0.0);
+        glVertex3f(0.0, 5.5, 0.0);
     glEnd();
     glFlush();
 }
