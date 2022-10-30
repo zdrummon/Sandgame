@@ -1,13 +1,12 @@
 # Sandgame
 Making a basic falling sand simulator and seeing where that leads us \
-(inspired by Noita)
+(inspired by Noita) \
 ---
-Contributors:
----
+Contributors: \
 zdrummon@gmail.com  \
-cesismalon@gmail.com 
+cesismalon@gmail.com \
 ---
-Instructions: \
+### Instructions:
 1. Install VSCode from "https://code.visualstudio.com/"
 2. Install Docker Desktop from "https://www.docker.com/products/docker-desktop/"
 3. Install Windows X Server from "https://sourceforge.net/projects/vcxsrv/"
