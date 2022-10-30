@@ -1,10 +1,10 @@
 # Sandgame
 Making a basic falling sand simulator and seeing where that leads us \
-(inspired by Noita) \
+(inspired by Noita)
 ---
 Contributors: \
 zdrummon@gmail.com  \
-cesismalon@gmail.com \
+cesismalon@gmail.com
 ---
 ### Instructions:
 1. Install VSCode from "https://code.visualstudio.com/"
