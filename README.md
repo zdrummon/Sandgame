@@ -25,3 +25,7 @@ cesismalon@gmail.com
 13. Run xlaunch from the Windows start menu and select these options:\
         multiple windows, start no client, clipboard, primary selection, native opengl, disable access control
 14. Compile and run!
+---
+### To-do:
+1. Update my image on Docker Hub with more secure git configuration
+
