@@ -8,7 +8,7 @@ cesismalon@gmail.com
 ---
 ### Instructions:
 1. Install VSCode from "https://code.visualstudio.com/"
-2. Install Docker Desktop from "https://www.docker.com/products/docker-desktop/"
+2. Install Docker Desktop (as admin) from "https://www.docker.com/products/docker-desktop/"
 3. Install Windows X Server from "https://sourceforge.net/projects/vcxsrv/"
 4. Setup WSL2 \
         (this step needs to be expanded upon)
@@ -28,4 +28,4 @@ cesismalon@gmail.com
 ---
 ### To-do:
 1. Update my image on Docker Hub with more secure git configuration
-
+2. Get Box2D configured in the project
