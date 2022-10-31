@@ -16,12 +16,11 @@ cesismalon@gmail.com
 6. Run image from within Docker Desktop (pass: headless)
 7. Click on the Extensions tab on the left and search for "Docker" then install
 8. Click on the Remote Explorer tab on the left in VSCode and click "attach to container" on "zdrummon/ubuntu_opengl"
-9. Click on the Explorer tab on the left and click "open folder" and then navigate to "/dev/sandgame/"
+9. Click on the Explorer tab on the left in the newly opened VSCode remote and click "open folder" and then navigate to "/dev/sandgame/"
 10. In VSCode terminal: "git config --global user.name first_name last_name"
 11. In VSCode terminal: "git config --global user.email your_email@email_host"
-12. Other git steps (this step needs to be expanded upon)
+12. Configure git (depending on role)
     * (this step needs to be expanded upon)
-12. In VSCode terminal: "export DISPLAY=0:0"
 13. Run xlaunch from the Windows start menu and select these options:
     * multiple windows, start no client, clipboard, primary selection, native opengl, disable access control
 14. Compile and run!
