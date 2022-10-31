@@ -1,29 +1,37 @@
-//#include <iostream>
-#include <GL/glut.h>
+#include <GLFW/glfw3.h>
 
-//using std::cout; using std::cin; using std::endl;
-
-void displayMe(void)
+int main(void)
 {
-    glClear(GL_COLOR_BUFFER_BIT);
-    glBegin(GL_POLYGON);
-        glVertex3f(0.0, 0.0, 0.0);
-        glVertex3f(5.5, 0.0, 0.0);
-        glVertex3f(5.5, 5.5, 0.0);
-        glVertex3f(0.0, 5.5, 0.0);
-    glEnd();
-    glFlush();
-}
+    GLFWwindow* window;
 
-int main(int argc, char** argv) {
+    /* Initialize the library */
+    if (!glfwInit())
+        return -1;
 
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE);
-    glutInitWindowSize(300, 300);
-    glutInitWindowPosition(100, 100);
-    glutCreateWindow("Hello world!");
-    glutDisplayFunc(displayMe);
-    glutMainLoop();
+    /* Create a windowed mode window and its OpenGL context */
+    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    if (!window)
+    {
+        glfwTerminate();
+        return -1;
+    }
 
+    /* Make the window's context current */
+    glfwMakeContextCurrent(window);
+
+    /* Loop until the user closes the window */
+    while (!glfwWindowShouldClose(window))
+    {
+        /* Render here */
+        glClear(GL_COLOR_BUFFER_BIT);
+
+        /* Swap front and back buffers */
+        glfwSwapBuffers(window);
+
+        /* Poll for and process events */
+        glfwPollEvents();
+    }
+
+    glfwTerminate();
     return 0;
 }

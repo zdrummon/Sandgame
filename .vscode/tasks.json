@@ -12,7 +12,8 @@
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lGL",
                 "-lGLU",
-                "-lglut"
+                "-lglut",
+                "-lglfw"
             ],
             "options": {
                 "cwd": "${fileDirname}"
