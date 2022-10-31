@@ -27,6 +27,8 @@ cesismalon@gmail.com
 14. Compile and run!
 ---
 ### To-do:
-1. Update my image on Docker Hub with more secure git configuration
-2. OpenGl
-3. Get Box2D configured in the project
+- [ ] Update my image on Docker Hub with more secure git configuration \
+    * partially complete
+- [ ] Work on OpenGL knowledge \
+    * we have triangle
+- [ ] Get Box2D configured in the project
