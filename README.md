@@ -29,4 +29,4 @@ cesismalon@gmail.com
 ### To-do:
 1. Update my image on Docker Hub with more secure git configuration
 2. OpenGl
-2. Get Box2D configured in the project
+3. Get Box2D configured in the project
