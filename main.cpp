@@ -1,13 +1,30 @@
-#include <GLFW/glfw3.h>
+/* 
+
+    //========\\ 
+    ||SANDGAME|| 
+    \\========//
+
+created by:
+Trevor Haggerty  | cesismalon@gmail.com
+Zachary Drummond | zdrummon@gmail.com 
+
+*/
+
+/* glew needs to be before any other opengl include */
 #include <GL/glew.h>
+#include <GLFW/glfw3.h>
+#include <iostream>
+
+using std::cout; using std::endl;
 
 int main(void)
 {
     GLFWwindow* window;
 
-    /* Initialize the library */
+    /* Initialize the glfw library */
     if (!glfwInit()) 
     {
+        cout << "ERROR: GLFW FAILED TO INITIALIZE" << endl;
         return -1; 
     }
         
@@ -16,11 +33,21 @@ int main(void)
     if (!window)
     {
         glfwTerminate();
+        cout << "ERROR: GLFW WINDOW FAILED" << endl;
         return -1;
     }
 
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
+
+    /* Initialize the glew library */
+    if (glewInit() != GLEW_OK) 
+    {
+        cout << "ERROR: GLEW FAILED TO INITIALIZE" << endl;
+        return -1; 
+    }
+
+    cout << "OPENGL " << glGetString(GL_VERSION) << endl;
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
@@ -42,5 +69,6 @@ int main(void)
     }
 
     glfwTerminate();
+    cout << endl << "CLOSING PROGRAM SUCCESSFULLY" << endl;
     return 0;
 }

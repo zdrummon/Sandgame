@@ -12,7 +12,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lGL",
                 "-lGLU",
-                "-lglut",
+                "-lGLEW",
                 "-lglfw"
             ],
             "options": {
