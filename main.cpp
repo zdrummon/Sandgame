@@ -58,7 +58,7 @@ int main(void)
 
     cout << "OPENGL " << glGetString(GL_VERSION) << endl;
 
-    /* vertex position array */
+    /* Vertex position array */
     const int POSITION_SIZE = 6;
     float positions[POSITION_SIZE] = {
         -0.5f, -0.5f,
@@ -66,14 +66,17 @@ int main(void)
         0.5f, -0.5f
     };
 
-    /* Generate a buffer (number of buffers, pointer to unsigned int), (buffer type, choose buffer) */
+    /* Generate a buffer and select it (number of buffers, pointer to unsigned int), (buffer type, choose buffer) */
     unsigned int buffer;
     glGenBuffers(1, &buffer);
     glBindBuffer(GL_ARRAY_BUFFER, buffer);
 
-    /* data to put into the buffer */
-    glBufferData(GL_ARRAY_BUFFER, POSITION_SIZE * sizeof(float), positions, GL_STATIC_DRAW);
+    /* Defines how the vertex buffer data is formatted */
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);
 
+    /* Puts data into the buffer */
+    glBufferData(GL_ARRAY_BUFFER, POSITION_SIZE * sizeof(float), positions, GL_STATIC_DRAW);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
